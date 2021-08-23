@@ -1,0 +1,22 @@
+{
+  "name": "my_resume",
+  "version": "1.0.0",
+  "description": " This app is to show case my resume and allow clients send email to me for hire.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "mail.js"
+  },
+  "author": "akojamsy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "nodemailer": "^6.6.3",
+    "nodemailer-mailgun-transport": "^2.1.3",
+    "nodemon": "^2.0.12"
+  }
+}
